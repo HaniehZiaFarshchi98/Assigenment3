@@ -1,0 +1,16 @@
+import random
+
+
+counter = 20
+first_list= []
+second_list =[]
+for i in range(counter):
+    num = random.randint(0 , 1000)
+    first_list.append(num)
+    second_list.append(num**2)
+
+print(first_list)
+print(second_list)
+    
+
+
