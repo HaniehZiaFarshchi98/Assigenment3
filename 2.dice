@@ -1,0 +1,13 @@
+import random
+
+sum = 0
+ 
+while True:
+    answer = random.randint(1 , 6)
+    print("your answer is:" , answer)
+    sum = sum + answer 
+    if answer == 6:
+        break
+    else:
+        continue
+print("sum of ypur answers=" , sum)
